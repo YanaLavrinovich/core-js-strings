@@ -540,7 +540,6 @@ function encodeToRot13(str) {
 function getCardId(value) {
   const sign = value.at(value.length - 1);
   const cardValue = value.slice(0, value.length - 1);
-  console.log('sign ', sign, 'cardValue ', cardValue);
 
   let result = 0;
   switch (cardValue) {
